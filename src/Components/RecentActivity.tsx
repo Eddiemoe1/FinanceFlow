@@ -3,7 +3,6 @@ import { Badge } from "@/components/ui/badge"
 import { Activity, TrendingUp, TrendingDown, DollarSign, Target } from "lucide-react"
 
 
-
 const activities = [
   {
     id: 1,

@@ -40,6 +40,7 @@ const actions = [
   }
 ]
 
+
 export function QuickActions() {
   return (
     <Card className="financial-card">
