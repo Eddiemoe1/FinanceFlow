@@ -51,7 +51,6 @@ export function QuickActions() {
           {actions.map((action, index) => (
             <Button
               key={index}
-              variant="outline"
               className="h-auto p-4 flex flex-col items-center space-y-2 border-border hover:bg-white/5 group transition-all duration-200 hover:scale-105"
             >
               <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${action.color} flex items-center justify-center group-hover:scale-110 transition-transform`}>
