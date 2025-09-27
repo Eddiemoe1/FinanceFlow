@@ -2,7 +2,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "../Components/ui/card"
 import { Badge } from "../Components/ui/badge"
 import { Activity, TrendingUp, TrendingDown, DollarSign, Target } from "lucide-react"
 
-
 const activities = [
   {
     id: 1,
@@ -84,8 +83,7 @@ export function RecentActivity() {
                     {activity.title}
                   </p>
                   <Badge 
-                    variant={activity.status === 'completed' ? 'default' : 'secondary'}
-                    className="ml-2 text-xs"
+                    className={`ml-2 text-xs ${activity.status === 'completed' ? 'bg-primary text-white' : 'bg-secondary text-foreground'}`}
                   >
                     {activity.status}
                   </Badge>
