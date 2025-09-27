@@ -82,7 +82,7 @@ export function TransactionList() {
     <Card className="financial-card">
       <CardHeader className="flex flex-row items-center justify-between pb-4">
         <CardTitle className="text-xl font-semibold">Recent Transactions</CardTitle>
-        <Button variant="ghost" size="sm" className="hover:bg-white/10">
+        <Button className="hover:bg-white/10">
           <MoreHorizontal className="w-4 h-4" />
         </Button>
       </CardHeader>
@@ -119,7 +119,6 @@ export function TransactionList() {
         ))}
         
         <Button 
-          variant="outline" 
           className="w-full mt-4 border-border hover:bg-white/5"
         >
           View All Transactions
