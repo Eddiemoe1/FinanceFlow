@@ -1,7 +1,7 @@
 import { MoreHorizontal, ArrowUpRight, ArrowDownLeft, ShoppingCart, Car, Home } from "lucide-react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Avatar, AvatarFallback } from "@/components/ui/avatar"
+import { Card, CardContent, CardHeader, CardTitle } from "../Components/ui/card"
+import { Button } from "../Components/ui/button"
+import { Avatar, AvatarFallback } from "../Components/ui/avatar"
 
 interface Transaction {
   id: string

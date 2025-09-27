@@ -22,7 +22,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "@/components/ui/sidebar"
+} from "../Components/ui/sidebar"
 
 const mainItems = [
   { title: "Dashboard", url: "/", icon: Home },

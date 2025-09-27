@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "../Components/ui/card"
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, ResponsiveContainer, PieChart, Pie, Cell } from "recharts"
 
 const monthlyData = [
@@ -46,11 +46,11 @@ export function SpendingChart() {
               <XAxis 
                 dataKey="name" 
                 stroke="hsl(var(--muted-foreground))"
-                fontSize={12}
+                //fontSize={12}
               />
               <YAxis 
                 stroke="hsl(var(--muted-foreground))"
-                fontSize={12}
+                //fontSize={12}
               />
               <Area
                 type="monotone"

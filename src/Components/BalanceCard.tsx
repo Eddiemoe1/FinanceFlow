@@ -1,7 +1,7 @@
 import { TrendingUp, TrendingDown, Eye, EyeOff } from "lucide-react"
 import { useState } from "react"
-import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+import { Card, CardContent } from "../Components/ui/card"
+import { Button } from "../Components/ui/button"
 
 interface BalanceCardProps {
   title: string
@@ -43,8 +43,6 @@ export function BalanceCard({
             {title}
           </h3>
           <Button
-            variant="ghost"
-            size="sm"
             onClick={() => setIsVisible(!isVisible)}
             className="w-8 h-8 p-0 hover:bg-white/10"
           >
