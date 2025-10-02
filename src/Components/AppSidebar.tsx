@@ -76,6 +76,7 @@ export function AppSidebar() {
             )}
           </div>
         </div>
+        
 
         {/* Main Navigation */}
         <SidebarGroup>
