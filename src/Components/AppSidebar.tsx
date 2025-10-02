@@ -42,7 +42,6 @@ const analyticsItems = [
 const settingsItems = [
   { title: "Documents", url: "/documents", icon: FileText },
   { title: "Settings", url: "/settings", icon: Settings },
-
 ]
 
 export function AppSidebar() {
