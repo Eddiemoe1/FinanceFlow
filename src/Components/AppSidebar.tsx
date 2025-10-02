@@ -76,7 +76,7 @@ export function AppSidebar() {
             )}
           </div>
         </div>
-        
+
 
         {/* Main Navigation */}
         <SidebarGroup>
@@ -144,4 +144,5 @@ export function AppSidebar() {
     </Sidebar>
   )
 }
+
 export default AppSidebar;
