@@ -24,7 +24,6 @@ import {
   useSidebar,
 } from "../Components/ui/sidebar"
 
-
 const mainItems = [
   { title: "Dashboard", url: "/", icon: Home },
   { title: "Accounts", url: "/accounts", icon: Wallet },
