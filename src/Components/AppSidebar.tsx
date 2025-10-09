@@ -76,7 +76,6 @@ export function AppSidebar() {
           </div>
         </div>
 
-
         {/* Main Navigation */}
         <SidebarGroup>
           <SidebarGroupLabel className="text-xs text-muted-foreground uppercase tracking-wider">
