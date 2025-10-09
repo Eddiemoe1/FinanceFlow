@@ -14,6 +14,8 @@ interface Transaction {
   icon: React.ReactNode
 }
 
+
+
 const mockTransactions: Transaction[] = [
   {
     id: "1",
