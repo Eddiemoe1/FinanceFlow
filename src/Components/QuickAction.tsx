@@ -10,6 +10,7 @@ const actions = [
     color: "from-success to-success-light",
     textColor: "text-success"
   },
+
   {
     icon: <ArrowUpRight className="w-5 h-5" />,
     title: "Add Expense",
@@ -17,6 +18,7 @@ const actions = [
     color: "from-warning to-warning-light", 
     textColor: "text-warning"
   },
+
   {
     icon: <Repeat className="w-5 h-5" />,
     title: "Transfer",

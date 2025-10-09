@@ -78,6 +78,10 @@ export function SpendingChart() {
         <CardHeader>
           <CardTitle className="text-xl font-semibold gradient-text">
             Spending by Category
+            and type that fits well in the card
+            end the page and looks good 
+            with the overaall design
+
           </CardTitle>
         </CardHeader>
         <CardContent>
